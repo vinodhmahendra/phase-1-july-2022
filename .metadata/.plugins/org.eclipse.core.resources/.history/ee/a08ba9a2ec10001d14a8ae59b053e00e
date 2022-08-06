@@ -1,0 +1,14 @@
+package simplilearn.test;
+
+import simplilearn.domain.Customer;
+
+public class TestBanking {
+
+	public static void main(String[] args) {
+
+		Customer theCustomer = new Customer("Jane", "Smith");
+		
+
+	}
+
+}

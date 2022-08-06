@@ -1,0 +1,9 @@
+package simplilearn.examples;
+
+public class Loops {
+
+	// declare an array of strings
+	static private String[] months = { "January", "February", "March", "April", "May", "June", "July", "August",
+			"September", "October", "November", "December" };
+
+}

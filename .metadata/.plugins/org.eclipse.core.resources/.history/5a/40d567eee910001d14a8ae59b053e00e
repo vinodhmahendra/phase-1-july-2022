@@ -1,0 +1,17 @@
+package simplilearn.domain;
+
+public class Customer {
+
+	//declare three private instance variables, firstName ,lastName and account
+	private String firstName;
+	private String lastName;
+	private Account account; // customer 'has-a' account
+	
+	//declare a public constructor that takes two parameters (f and l)
+	public Customer(String f, String l) {
+		firstName = f;
+		lastName = l;
+	}
+	
+	//declare two public accessors for the object instance variables
+}

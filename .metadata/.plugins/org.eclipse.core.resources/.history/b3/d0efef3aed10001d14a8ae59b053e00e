@@ -1,0 +1,20 @@
+package simplilearn.test;
+
+import simplilearn.domain.Account;
+import simplilearn.domain.Customer;
+
+public class TestBanking {
+
+	public static void main(String[] args) {
+
+		System.out.println("Creating the customer Jane Smith");
+		Customer theCustomer = new Customer("Jane", "Smith");
+		
+		System.out.println("Creating her account with a 500.00 balance");
+		Account account = new Account(500.00);
+		theCustomer.setAccount(account);
+		
+
+	}
+
+}

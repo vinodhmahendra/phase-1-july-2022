@@ -1,0 +1,13 @@
+package simplilearn.examples;
+
+public class Conditions {
+	
+	public static void main(String[] args) {
+		int monthNumber = 8;
+		
+		if ( monthNumber >= 1 && monthNumber <= 3 ) {
+			System.out.println("Your'e in Quater 1");
+		}
+	}
+
+}
